@@ -1,0 +1,13 @@
+Last Modified Date & Time: 06/27/2016 14:57:18
+
+Connection_Parameters: TopDesign.cysch
+	BLE [v3.10] to [v3.10]
+	SW2 [v2.20] to [v2.20]
+	Led_Red [v2.20] to [v2.20]
+	Led_Green [v2.20] to [v2.20]
+	Led_Blue [v2.20] to [v2.20]
+
+Connection_Parameters: Connection_Parameters.cydwr
+	cy_boot [v4.20] to [v5.30]
+
+

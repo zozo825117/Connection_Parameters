@@ -1,0 +1,1168 @@
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 4
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"SW2_PM.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.section	.gnu.lto_.profile.d92263b9,"",%progbits
+  17 0000 789C6366 		.ascii	"x\234cf```a\200\000F\006\0166\000\000\212\000\027"
+  17      60606061 
+  17      80004606 
+  17      0E360000 
+  17      8A0017
+  18              		.text
+  19              		.section	.gnu.lto_.jmpfuncs.d92263b9,"",%progbits
+  20 0000 789C6366 		.ascii	"x\234cf\300\0168\2404\023\024\003\000\0018\000\020"
+  20      C00E38A0 
+  20      34131403 
+  20      00013800 
+  20      10
+  21              		.text
+  22              		.section	.gnu.lto_.inline.d92263b9,"",%progbits
+  23 0000 789C6366 		.ascii	"x\234cf\300\0164\2404\023\003\003+\013#\003\023\313"
+  23      C00E34A0 
+  23      34130303 
+  23      2B0B2303 
+  23      13CB
+  24 0012 027906B6 		.ascii	"\002y\006\266\005\362L\0201\014!\006\000G\026\003\\"
+  24      05F24C10 
+  24      310C2106 
+  24      00471603 
+  24      5C
+  25              		.text
+  26              		.section	.gnu.lto_.pureconst.d92263b9,"",%progbits
+  27 0000 789C6366 		.ascii	"x\234cf```e\200\000&\006)&)\000\000\373\000A"
+  27      60606065 
+  27      80002606 
+  27      29262900 
+  27      00FB0041 
+  28              		.text
+  29              		.section	.gnu.lto_SW2_Sleep.d92263b9,"",%progbits
+  30 0000 789C654F 		.ascii	"x\234eO=HBQ\024>\337yO3\204\210F\207\206\010\034B\207"
+  30      3D484251 
+  30      143EDF79 
+  30      4F338488 
+  30      46878608 
+  31 0017 686F6868 		.ascii	"hohh\012\004\207\026A\302\336\232 5\212\357\305\033"
+  31      0A048716 
+  31      41C2DE9A 
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 2
+
+
+  31      20358AEF 
+  31      C51B
+  32 0029 A4A1A421 		.ascii	"\244\241\244!\2022h\210,M\241\251\266\227\264\005E4"
+  32      82326888 
+  32      2C4DA1A9 
+  32      B697B405 
+  32      4534
+  33 003b 0482B528 		.ascii	"\004\202\265(\324\226\011\305K\324\316\325%\350\302"
+  33      D49609C5 
+  33      4BD4CED5 
+  33      25E8C2
+  34 004a E5DC73CE 		.ascii	"\345\334s\316w\277\037\215\376\237\200\334y\020MK\205"
+  34      77BF1F8D 
+  34      FE9F80DC 
+  34      79104D4B 
+  34      85
+  35 005b 46E0DC3D 		.ascii	"F\340\334=\221\345c@=\010\224ad\360\316-F\316)\356\373"
+  35      91E56340 
+  35      3D089461 
+  35      64F0CE2D 
+  35      46CE29EE 
+  36 0070 8327A669 		.ascii	"\203'\246i~T\357\254\210\003\227\211\332<\344\301)\202"
+  36      7E54EFAC 
+  36      88039789 
+  36      DA3CE4C1 
+  36      2982
+  37 0082 24A096DD 		.ascii	"$\240\226\335}\366{m\001\215\017w(\300+\374T\231p\314"
+  37      7DF67B6D 
+  37      018D0F77 
+  37      28C02BFC 
+  37      549970CC 
+  38 0096 7EBF5DBE 		.ascii	"~\277]\276\371\201\316\344\262\314\032\262W*MfU\265"
+  38      F981CEE4 
+  38      B2CC1AB2 
+  38      572A4D66 
+  38      55B5
+  39 00a8 1AAA5F5B 		.ascii	"\032\252_[\275\346\210\372\362\315J\262~[\277\032{c"
+  39      BDE688FA 
+  39      F2CD4AB2 
+  39      7E5BBF1A 
+  39      7B63
+  40 00ba 97396BE7 		.ascii	"\2279k\347L]\011\2746\036\036}\203\021\251\366\272\275"
+  40      4C5D09BC 
+  40      361E1E7D 
+  40      8311A9F6 
+  40      BABD
+  41 00cc E78CE671 		.ascii	"\347\214\346q`\331bG\303\031\0028\207\204B\021yP\015"
+  41      60D96247 
+  41      C3190238 
+  41      87844211 
+  41      79500D
+  42 00df 9BBBC793 		.ascii	"\233\273\307\223\212O\240GO\333eNw\314\254\351sY\357"
+  42      8A4FA047 
+  42      4FDB654E 
+  42      77CCACE9 
+  42      7359EF
+  43 00f2 2A737FF9 		.ascii	"*s\177\371\364A[\260\354C(>S\241<(!\215\013E(\273^i"
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 3
+
+
+  43      F4415BB0 
+  43      EC43283E 
+  43      53A13C28 
+  43      218D0B45 
+  44 010a E7D21B2A 		.ascii	"\347\322\033*J6g\306e/\312\002\374\034\344G\005!qL/"
+  44      4A3667C6 
+  44      652FCA02 
+  44      FC1CE447 
+  44      0521714C 
+  45 011f B09C8E47 		.ascii	"\260\234\216G\351\251iCBJ.AL\205c\213\306\232\221ZY"
+  45      E9A96943 
+  45      424A2E41 
+  45      4C85638B 
+  45      C69A915A 
+  46 0134 3756E3D1 		.ascii	"7V\343\321\344F*a\304\"\321\344\302\\,\272<\033\217"
+  46      E4462A61 
+  46      C422D1E4 
+  46      C25C2CBA 
+  46      3C1B8F
+  47 0147 2C8513F4 		.ascii	",\205\023\364\013\365\306\177\375"
+  47      0BF5C67F 
+  47      FD
+  48              		.text
+  49              		.section	.gnu.lto_SW2_Wakeup.d92263b9,"",%progbits
+  50 0000 789C658F 		.ascii	"x\234e\217?HBQ\024\306\357w\236\232!DD\2039F\340\020"
+  50      3F484251 
+  50      14C6EF77 
+  50      9E9A2144 
+  50      44833946 
+  51 0016 1A44635B 		.ascii	"\032Dc[PS 8\264\010\022\366\326\004\251Q\274O^\340T"
+  51      50532038 
+  51      B40812F6 
+  51      D604A951 
+  51      BC4F5EE0 
+  52 002b D610417F 		.ascii	"\326\020A\177\240!\2624\205\240\250\355\025\315ET\004"
+  52      A021B234 
+  52      85A0A8ED 
+  52      15CD4554 
+  52      04
+  53 003c 82B518D8 		.ascii	"\202\265\030\330\2269\304#\314\316}N\321\205\313\271"
+  53      9639C423 
+  53      CCCE7D4E 
+  53      D185CBB9 
+  54 004c F79CEF7C 		.ascii	"\367\234\357|\277s4\361\377\004\370NB\210\021\216\320"
+  54      BF7334F1 
+  54      FF04F84E 
+  54      4288118E 
+  54      D0
+  55 005d 04287F2B 		.ascii	"\004(\177+\204\341%@=\004D\206\220\301;5\011y\253\270"
+  55      84E12540 
+  55      3D044486 
+  55      90C13B35 
+  55      0979ABB8 
+  56 0071 E50B1E48 		.ascii	"\345\013\036H)?\262g\376\025\277MB\264\250k\203C\004"
+  56      293FB267 
+  56      FE15BF4D 
+  56      42B4A86B 
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 4
+
+
+  56      834304
+  57 0084 056B9A66 		.ascii	"\005k\232f\373\331\3471Y\323\337\255\241\000\017\333"
+  57      FBD9E731 
+  57      59D3DFAD 
+  57      A1000FDB 
+  58 0094 8BCA8025 		.ascii	"\213\312\200%;\235\326\343zc\014.\0226q\262\316\002"
+  58      3B9DD6E3 
+  58      7A630C2E 
+  58      123671B2 
+  58      CE02
+  59 00a6 45792352 		.ascii	"Ey#RQ\253\"{\336|\272\352Q=_\244\220{\017\253eJ\177"
+  59      51AB227B 
+  59      DE7CBAEA 
+  59      513D5FA4 
+  59      907B0FAB 
+  60 00bd CB9CF4DA 		.ascii	"\313\234\364\332Dme\310\331\327\372\335\275\267A\234"
+  60      446D65C8 
+  60      D9D7FADD 
+  60      BDB7419C 
+  61 00cd 71BE05C3 		.ascii	"q\276\005\303\334\301.\266\015\251T\032\216\220\306"
+  61      DCC12EB6 
+  61      0DA9541A 
+  61      8E90C6
+  62 00dc 31024EED 		.ascii	"1\002N\355\247\264v\352\011\215\332\344B\2215\237\316"
+  62      A7B476EA 
+  62      098DDAE4 
+  62      4291359F 
+  62      CE
+  63 00ed B8282124 		.ascii	"\270(!$\252\270\336\330\037T(\226\325nj\027}\312\321"
+  63      AAB8DED8 
+  63      1F542896 
+  63      D56E6A17 
+  63      7DCAD1
+  64 0100 9D33F3D2 		.ascii	"\2353\363\322\365\007\342v\214.[\233V\257\202\230\206"
+  64      F507E276 
+  64      8C2E5B9B 
+  64      56AF8298 
+  64      86
+  65 0111 35649307 		.ascii	"5d\223\007'\010\240\254(\250\2601\217+^`X\235i\345\250"
+  65      2708A0AC 
+  65      28A8B031 
+  65      8F2B5E60 
+  65      589D69E5 
+  66 0126 2075DE90 		.ascii	" u\336\220\227b\340p86\243/\352\251\371%}!\036M.\247"
+  66      9762E070 
+  66      3836A32F 
+  66      EAA9F925 
+  66      7D211E4D 
+  67 013c 127A2C12 		.ascii	"\022z,\022MNM\304\242s\343\361\310l8!~\001\355\324}"
+  67      4D4E4DC4 
+  67      A273E3F1 
+  67      C86C3821 
+  67      7E01EDD4 
+  68 0151 5E       		.ascii	"^"
+  69              		.text
+  70              		.section	.gnu.lto_.symbol_nodes.d92263b9,"",%progbits
+  71 0000 789C6366 		.ascii	"x\234cf``\320d\200\002&\306z\006\206\011\347\030\030"
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 5
+
+
+  71      6060D064 
+  71      800226C6 
+  71      7A068609 
+  71      E71818
+  72 0013 EAEB19E6 		.ascii	"\352\353\031\346-\340``e`X\300T\317\314\304T\317\210"
+  72      2DE06060 
+  72      656058C0 
+  72      54CFCCC4 
+  72      54CF88
+  73 0026 2CCC0000 		.ascii	",\314\000\000\310\"\011\240"
+  73      C82209A0 
+  74              		.text
+  75              		.section	.gnu.lto_.refs.d92263b9,"",%progbits
+  76 0000 789C6366 		.ascii	"x\234cf``\340f\200\000F\006FF&F& \311\000\000\001l\000"
+  76      6060E066 
+  76      80004606 
+  76      46462646 
+  76      2620C900 
+  77 0018 19       		.ascii	"\031"
+  78              		.text
+  79              		.section	.gnu.lto_.decls.d92263b9,"",%progbits
+  80 0000 789C8D53 		.ascii	"x\234\215SoHSQ\024\277\347=7\267\327\320B\310\360K6"
+  80      6F485351 
+  80      14BFE73D 
+  80      37B7D7D0 
+  80      42C8F04B 
+  81 0015 6144841F 		.ascii	"aD\204\037,\374\232f $\305h\211\037\022\314\326\243"
+  81      2CFC9A66 
+  81      2024C568 
+  81      891F12CC 
+  81      D6A3
+  82 0027 C4C8A1DB 		.ascii	"\304\310\241\333\207\276\3045\255f\005\251a\364\217"
+  82      87BEC435 
+  82      AD6605A9 
+  82      61F48F
+  83 0036 9A39CAFC 		.ascii	"\2329\312\3743\315\312\346\3775\315\234\177\202\"PA"
+  83      33CDCAE6 
+  83      FF35CD9C 
+  83      7F822250 
+  83      41
+  84 0047 CA24C130 		.ascii	"\312$\3010hC1\223\300\316\275os+4\272p\336=\347\275"
+  84      68433193 
+  84      C0CEBD6F 
+  84      732B34BA 
+  84      70DE3DE7 
+  85 005c DFEF77CF 		.ascii	"\337\357w\317=\347<\221\020\342A[\305u;\212\220!\364"
+  85      3DE73C91 
+  85      10E2415B 
+  85      C5753B8A 
+  85      9021F4
+  86 006f 45342309 		.ascii	"E4#\011/\001\255\011\315\205\006h\203\344\317\305\276"
+  86      2F01AD09 
+  86      CD850668 
+  86      83E4CFC5 
+  86      BE
+  87 0080 4507393B 		.ascii	"E\0079;\320F\320|h\243h^4w\220\327\023\334\2336\320"
+  87      D046D07C 
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 6
+
+
+  87      68A3685E 
+  87      347790D7 
+  87      13DC9B36 
+  88 0095 71FDA513 		.ascii	"q\375\245\023\311\017iF\352l\224O@\200\221\231\345\005"
+  88      C90F6946 
+  88      EA6C944F 
+  88      40809199 
+  88      E505
+  89 00a7 DD9C0031 		.ascii	"\335\234\0001\322f\026\336\031\237]\0241\324I\002\013"
+  89      D26616DE 
+  89      199F5D14 
+  89      31D44902 
+  89      0B
+  90 00b8 DB7F2EB5 		.ascii	"\333\177.\265\250\343k([et\263\000\306\255\360\030\022"
+  90      A8E36B28 
+  90      5B6574B3 
+  90      00C6ADF0 
+  90      1812
+  91 00ca A01E1250 		.ascii	"\240\036\022P\361\011\304\343\363X\224\242\344l\177"
+  91      F109C4E3 
+  91      F35894A2 
+  91      E46C7F
+  92 00d9 541B2B0A 		.ascii	"T\033+\012\300\374\272[\237?H\273\033\220e\247\236i"
+  92      C0FCBA5B 
+  92      9F3F48BB 
+  92      1B9065A7 
+  92      9E69
+  93 00eb 081F77B9 		.ascii	"\010\037w\271\342\323\224&\361>u\264\372\033\335\223"
+  93      E2D39426 
+  93      F13E75B4 
+  93      FA1BDD93 
+  94 00fb 3A5A4F3D 		.ascii	":ZO=\253\253\373\270\0244\200\010\215\260\233!\231\317"
+  94      ABABFBB8 
+  94      14348008 
+  94      8DB09B21 
+  94      99CF
+  95 010d 29D00489 		.ascii	")\320\004\211H\253\235\235[\021\305T\256\275<=\3715"
+  95      48AB9D9D 
+  95      5B11C554 
+  95      AEBD3C3D 
+  95      F935
+  96 011f 964B38EA 		.ascii	"\226K8\352\353\324\212\000\3477G\360\233C|\027\347\267"
+  96      EBD48A00 
+  96      E73747F0 
+  96      9B437C17 
+  96      E7B7
+  97 0131 F6355668 		.ascii	"\3665Vh\371-\2173\211\037\027\375\025\022\277\245\216"
+  97      F92D8F33 
+  97      891F17FD 
+  97      1512BFA5 
+  97      8E
+  98 0142 8503CE9A 		.ascii	"\205\003\316\232*\225\230\316\325;\\\213c\23382\221"
+  98      2A9598CE 
+  98      D53B5C8B 
+  98      639B3832 
+  98      91
+  99 0153 859DD543 		.ascii	"\205\235\325C\267\324\034\031\305\302\317\023\343\335"
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 7
+
+
+  99      B7D41C19 
+  99      C5C2CF13 
+  99      E3DD
+ 100 0161 D1A28923 		.ascii	"\321\242\211#K\037u]\213\306O;$~\263Ow\177:\265<d\023"
+ 100      4B1F755D 
+ 100      8BC64F3B 
+ 100      247EB34F 
+ 100      777F3AB5 
+ 101 0178 128BAF84 		.ascii	"\022\213\257\204.o\365;\011\014\222\023\353\340\357"
+ 101      2E6FF53B 
+ 101      090C9213 
+ 101      EBE0EF
+ 102 0187 ECEF3D58 		.ascii	"\354\357=XF\323\300\015\022<_\313\224\263\331\262Sz"
+ 102      46D3C00D 
+ 102      123C5FCB 
+ 102      94B3D9B2 
+ 102      537A
+ 103 0199 81569651 		.ascii	"\201V\226Q\355P\014\2016,\3613,1\274\004\003\"8\026"
+ 103      ED500C81 
+ 103      362CF133 
+ 103      2C31BC04 
+ 103      03223816 
+ 104 01ad 5EE0CB76 		.ascii	"^\340\313v|\211g5T\275\356Q\211\347y\032\337?\322\203"
+ 104      7C896735 
+ 104      54BDEE51 
+ 104      89E7791A 
+ 104      DF3FD283 
+ 105 01c1 E225E0FE 		.ascii	"\342%\340\376\322h\240\002\304\353J\340\254\271\331"
+ 105      D268A002 
+ 105      C4EB4AE0 
+ 105      ACB9D9
+ 106 01d0 A4E2A96B 		.ascii	"\244\342\251k0T\015\377\032\270\251\003}\234^op\340"
+ 106      30540DFF 
+ 106      1AB8A903 
+ 106      7D9C5E6F 
+ 106      70E0
+ 107 01e2 597EF76C 		.ascii	"Y~\367lu\314m\352\360\002\317\250\0033\352\205\270\360"
+ 107      75CC6DEA 
+ 107      F002CFA8 
+ 107      0333EA85 
+ 107      B8F0
+ 108 01f4 C93B5983 		.ascii	"\311;Y\203w\341\203T\261\346WR\232f%\320\202\237[y\357"
+ 108      77E18354 
+ 108      B1E65752 
+ 108      9A6625D0 
+ 108      829F5B79 
+ 109 0209 1918D382 		.ascii	"\031\030\323\202W\230a\017\350\241\017\315\003z~\027"
+ 109      5798610F 
+ 109      E8A10FCD 
+ 109      037A7E17 
+ 110 0219 A6EF186D 		.ascii	"\246\357\030m\243i\345\"\027\357\\W\274\215\351(\330"
+ 110      A369E522 
+ 110      17EF5C57 
+ 110      BC8DE928 
+ 110      D8
+ 111 022a B130B6EB 		.ascii	"\2610\266\353ol7\254e\302\3528\355K\3210\000\011\265"
+ 111      6F6C37AC 
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 8
+
+
+ 111      65C2EA38 
+ 111      ED4BD130 
+ 111      0009B5
+ 112 023d 3A345A42 		.ascii	":4ZB\245k~\011 \316\260^\276\320\217i\376+e.\375V\015"
+ 112      A56B7E09 
+ 112      20CEB05E 
+ 112      BED08F69 
+ 112      FE2B652E 
+ 113 0254 E045D0D3 		.ascii	"\340E\320\323p{\330I\241\331}\370e\345\200\350V\212"
+ 113      707BD849 
+ 113      A1D97DF8 
+ 113      65E580E8 
+ 113      568A
+ 114 0266 7B636CF9 		.ascii	"{cl\371\272\224\372\234\332\035\3338\205\351\261\006"
+ 114      BA94FA9C 
+ 114      DA1DDB38 
+ 114      85E9B106 
+ 115 0276 F505778F 		.ascii	"\365\005w\217\2623\350\263\227\2761]R-\245\016\177\343"
+ 115      B233E8B3 
+ 115      97BE315D 
+ 115      522DA50E 
+ 115      7FE3
+ 116 0288 C43728A5 		.ascii	"\3047(\245\216\013\224\262\231\345\304\001\345\254\210"
+ 116      8E0B94B2 
+ 116      99E5C401 
+ 116      E5AC88
+ 117 0297 CA0EB0D1 		.ascii	"\312\016\260\321\205\327\220J`\020\222P\300^\335>\257"
+ 117      85D7904A 
+ 117      60109250 
+ 117      C05EDD3E 
+ 117      AF
+ 118 02a8 12FB9583 		.ascii	"\022\373\225\203\337\327\004\036h$;\373\035\377sZ\204"
+ 118      DFD7041E 
+ 118      68243BFB 
+ 118      1DFF735A 
+ 118      84
+ 119 02b9 ABCB7381 		.ascii	"\253\313s\201\030\220\014\353\223\206\327!)\003[\266"
+ 119      18900CEB 
+ 119      9386D721 
+ 119      29035BB6 
+ 120 02c9 90558E03 		.ascii	"\220U\216\003\353\303\256\274\011Wd\010\244\265\212"
+ 120      EBC3AEBC 
+ 120      09576408 
+ 120      A4B58A
+ 121 02d8 B87D4F67 		.ascii	"\270}Og\004\335\225\360\350rpH\232\300\010\350\370O"
+ 121      04DD95F0 
+ 121      E8727048 
+ 121      9AC008E8 
+ 121      F84F
+ 122 02ea 883B4B7D 		.ascii	"\210;K}\352^@\373\007\332\033\321h\002\243A4\333\265"
+ 122      EA5E40FB 
+ 122      07DA1BD1 
+ 122      6802A341 
+ 122      34DBB5
+ 123 02fd A69C943C 		.ascii	"\246\234\224<\323\031Y\266\2503\017g'f\020}rn\246|V"
+ 123      D31959B6 
+ 123      A8330F67 
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 9
+
+
+ 123      2766107D 
+ 123      726EA67C 
+ 124 0312 2ECEB7CA 		.ascii	".\316\267\312'\363LE\266b\263\234k4\025e\354\315eH\343"
+ 124      27F34C45 
+ 124      B662B39C 
+ 124      6B341565 
+ 124      ECCD6548 
+ 125 0327 A1643391 		.ascii	"\241d3\221\230\227\223_(\333,[\230\273?=#+\333\230g"
+ 125      9897935F 
+ 125      28DB2C5B 
+ 125      98BB3F3D 
+ 125      232BDB98 
+ 126 033c 3A7A243B 		.ascii	":z$;\343\250\332Vp\326\272'%iC\031\3639\3539\213\\\222"
+ 126      E3A8DA56 
+ 126      70D6BA27 
+ 126      25694319 
+ 126      F339EB39 
+ 127 0353 7C9A445B 		.ascii	"|\232D[\314&+\0024%\005E\212c+9\301\235\355\377J\002"
+ 127      CC262B02 
+ 127      34250545 
+ 127      8A632B39 
+ 127      C19DEDFF 
+ 128 0369 993C8313 		.ascii	"\231<\203\023\371\346B\233EU,\237\332\223\362\033YJ"
+ 128      F9E6429B 
+ 128      45552C9F 
+ 128      DA93F21B 
+ 128      594A
+ 129 037b B380     		.ascii	"\263\200"
+ 130              		.text
+ 131              		.section	.gnu.lto_.symtab.d92263b9,"",%progbits
+ 132 0000 5357325F 		.ascii	"SW2_Sleep\000\000\000\000\000\000\000\000\000\000\000"
+ 132      536C6565 
+ 132      70000000 
+ 132      00000000 
+ 132      00000000 
+ 133 0014 00AC0000 		.ascii	"\000\254\000\000\000SW2_Wakeup\000\000\000\000\000\000"
+ 133      00535732 
+ 133      5F57616B 
+ 133      65757000 
+ 133      00000000 
+ 134 0029 00000000 		.ascii	"\000\000\000\000\000\000\256\000\000\000"
+ 134      0000AE00 
+ 134      0000
+ 135              		.text
+ 136              		.section	.gnu.lto_.opts,"",%progbits
+ 137 0000 272D666E 		.ascii	"'-fno-trapv' '-mcpu=cortex-m0' '-mthumb' '-g' '-Os'"
+ 137      6F2D7472 
+ 137      61707627 
+ 137      20272D6D 
+ 137      6370753D 
+ 138 0033 20272D66 		.ascii	" '-ffunction-sections' '-flto' '-ffat-lto-objects'\000"
+ 138      66756E63 
+ 138      74696F6E 
+ 138      2D736563 
+ 138      74696F6E 
+ 139              		.text
+ 140              		.cfi_sections	.debug_frame
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 10
+
+
+ 141              		.section	.text.SW2_Sleep,"ax",%progbits
+ 142              		.align	1
+ 143              		.global	SW2_Sleep
+ 144              		.code	16
+ 145              		.thumb_func
+ 146              		.type	SW2_Sleep, %function
+ 147              	SW2_Sleep:
+ 148              	.LFB0:
+ 149              		.file 1 ".\\Generated_Source\\PSoC4\\SW2_PM.c"
+   1:.\Generated_Source\PSoC4/SW2_PM.c **** /*******************************************************************************
+   2:.\Generated_Source\PSoC4/SW2_PM.c **** * File Name: SW2.c  
+   3:.\Generated_Source\PSoC4/SW2_PM.c **** * Version 2.20
+   4:.\Generated_Source\PSoC4/SW2_PM.c **** *
+   5:.\Generated_Source\PSoC4/SW2_PM.c **** * Description:
+   6:.\Generated_Source\PSoC4/SW2_PM.c **** *  This file contains APIs to set up the Pins component for low power modes.
+   7:.\Generated_Source\PSoC4/SW2_PM.c **** *
+   8:.\Generated_Source\PSoC4/SW2_PM.c **** * Note:
+   9:.\Generated_Source\PSoC4/SW2_PM.c **** *
+  10:.\Generated_Source\PSoC4/SW2_PM.c **** ********************************************************************************
+  11:.\Generated_Source\PSoC4/SW2_PM.c **** * Copyright 2015, Cypress Semiconductor Corporation.  All rights reserved.
+  12:.\Generated_Source\PSoC4/SW2_PM.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  13:.\Generated_Source\PSoC4/SW2_PM.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  14:.\Generated_Source\PSoC4/SW2_PM.c **** * the software package with which this file was provided.
+  15:.\Generated_Source\PSoC4/SW2_PM.c **** *******************************************************************************/
+  16:.\Generated_Source\PSoC4/SW2_PM.c **** 
+  17:.\Generated_Source\PSoC4/SW2_PM.c **** #include "cytypes.h"
+  18:.\Generated_Source\PSoC4/SW2_PM.c **** #include "SW2.h"
+  19:.\Generated_Source\PSoC4/SW2_PM.c **** 
+  20:.\Generated_Source\PSoC4/SW2_PM.c **** static SW2_BACKUP_STRUCT  SW2_backup = {0u, 0u, 0u};
+  21:.\Generated_Source\PSoC4/SW2_PM.c **** 
+  22:.\Generated_Source\PSoC4/SW2_PM.c **** 
+  23:.\Generated_Source\PSoC4/SW2_PM.c **** /*******************************************************************************
+  24:.\Generated_Source\PSoC4/SW2_PM.c **** * Function Name: SW2_Sleep
+  25:.\Generated_Source\PSoC4/SW2_PM.c **** ****************************************************************************//**
+  26:.\Generated_Source\PSoC4/SW2_PM.c **** *
+  27:.\Generated_Source\PSoC4/SW2_PM.c **** * \brief Stores the pin configuration and prepares the pin for entering chip 
+  28:.\Generated_Source\PSoC4/SW2_PM.c **** *  deep-sleep/hibernate modes. This function must be called for SIO and USBIO
+  29:.\Generated_Source\PSoC4/SW2_PM.c **** *  pins. It is not essential if using GPIO or GPIO_OVT pins.
+  30:.\Generated_Source\PSoC4/SW2_PM.c **** *
+  31:.\Generated_Source\PSoC4/SW2_PM.c **** * <b>Note</b> This function is available in PSoC 4 only.
+  32:.\Generated_Source\PSoC4/SW2_PM.c **** *
+  33:.\Generated_Source\PSoC4/SW2_PM.c **** * \return 
+  34:.\Generated_Source\PSoC4/SW2_PM.c **** *  None 
+  35:.\Generated_Source\PSoC4/SW2_PM.c **** *  
+  36:.\Generated_Source\PSoC4/SW2_PM.c **** * \sideeffect
+  37:.\Generated_Source\PSoC4/SW2_PM.c **** *  For SIO pins, this function configures the pin input threshold to CMOS and
+  38:.\Generated_Source\PSoC4/SW2_PM.c **** *  drive level to Vddio. This is needed for SIO pins when in device 
+  39:.\Generated_Source\PSoC4/SW2_PM.c **** *  deep-sleep/hibernate modes.
+  40:.\Generated_Source\PSoC4/SW2_PM.c **** *
+  41:.\Generated_Source\PSoC4/SW2_PM.c **** * \funcusage
+  42:.\Generated_Source\PSoC4/SW2_PM.c **** *  \snippet SW2_SUT.c usage_SW2_Sleep_Wakeup
+  43:.\Generated_Source\PSoC4/SW2_PM.c **** *******************************************************************************/
+  44:.\Generated_Source\PSoC4/SW2_PM.c **** void SW2_Sleep(void)
+  45:.\Generated_Source\PSoC4/SW2_PM.c **** {
+ 150              		.loc 1 45 0
+ 151              		.cfi_startproc
+  46:.\Generated_Source\PSoC4/SW2_PM.c ****     #if defined(SW2__PC)
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 11
+
+
+  47:.\Generated_Source\PSoC4/SW2_PM.c ****         SW2_backup.pcState = SW2_PC;
+ 152              		.loc 1 47 0
+ 153 0000 024B     		ldr	r3, .L2
+  48:.\Generated_Source\PSoC4/SW2_PM.c ****     #else
+  49:.\Generated_Source\PSoC4/SW2_PM.c ****         #if (CY_PSOC4_4200L)
+  50:.\Generated_Source\PSoC4/SW2_PM.c ****             /* Save the regulator state and put the PHY into suspend mode */
+  51:.\Generated_Source\PSoC4/SW2_PM.c ****             SW2_backup.usbState = SW2_CR1_REG;
+  52:.\Generated_Source\PSoC4/SW2_PM.c ****             SW2_USB_POWER_REG |= SW2_USBIO_ENTER_SLEEP;
+  53:.\Generated_Source\PSoC4/SW2_PM.c ****             SW2_CR1_REG &= SW2_USBIO_CR1_OFF;
+  54:.\Generated_Source\PSoC4/SW2_PM.c ****         #endif
+  55:.\Generated_Source\PSoC4/SW2_PM.c ****     #endif
+  56:.\Generated_Source\PSoC4/SW2_PM.c ****     #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(SW2__SIO)
+  57:.\Generated_Source\PSoC4/SW2_PM.c ****         SW2_backup.sioState = SW2_SIO_REG;
+  58:.\Generated_Source\PSoC4/SW2_PM.c ****         /* SIO requires unregulated output buffer and single ended input buffer */
+  59:.\Generated_Source\PSoC4/SW2_PM.c ****         SW2_SIO_REG &= (uint32)(~SW2_SIO_LPM_MASK);
+  60:.\Generated_Source\PSoC4/SW2_PM.c ****     #endif  
+  61:.\Generated_Source\PSoC4/SW2_PM.c **** }
+ 154              		.loc 1 61 0
+ 155              		@ sp needed
+  47:.\Generated_Source\PSoC4/SW2_PM.c ****     #else
+ 156              		.loc 1 47 0
+ 157 0002 1A68     		ldr	r2, [r3]
+ 158 0004 024B     		ldr	r3, .L2+4
+ 159 0006 1A60     		str	r2, [r3]
+ 160              		.loc 1 61 0
+ 161 0008 7047     		bx	lr
+ 162              	.L3:
+ 163 000a C046     		.align	2
+ 164              	.L2:
+ 165 000c 08020440 		.word	1074004488
+ 166 0010 00000000 		.word	.LANCHOR0
+ 167              		.cfi_endproc
+ 168              	.LFE0:
+ 169              		.size	SW2_Sleep, .-SW2_Sleep
+ 170              		.section	.text.SW2_Wakeup,"ax",%progbits
+ 171              		.align	1
+ 172              		.global	SW2_Wakeup
+ 173              		.code	16
+ 174              		.thumb_func
+ 175              		.type	SW2_Wakeup, %function
+ 176              	SW2_Wakeup:
+ 177              	.LFB1:
+  62:.\Generated_Source\PSoC4/SW2_PM.c **** 
+  63:.\Generated_Source\PSoC4/SW2_PM.c **** 
+  64:.\Generated_Source\PSoC4/SW2_PM.c **** /*******************************************************************************
+  65:.\Generated_Source\PSoC4/SW2_PM.c **** * Function Name: SW2_Wakeup
+  66:.\Generated_Source\PSoC4/SW2_PM.c **** ****************************************************************************//**
+  67:.\Generated_Source\PSoC4/SW2_PM.c **** *
+  68:.\Generated_Source\PSoC4/SW2_PM.c **** * \brief Restores the pin configuration that was saved during Pin_Sleep().
+  69:.\Generated_Source\PSoC4/SW2_PM.c **** *
+  70:.\Generated_Source\PSoC4/SW2_PM.c **** * For USBIO pins, the wakeup is only triggered for falling edge interrupts.
+  71:.\Generated_Source\PSoC4/SW2_PM.c **** *
+  72:.\Generated_Source\PSoC4/SW2_PM.c **** * <b>Note</b> This function is available in PSoC 4 only.
+  73:.\Generated_Source\PSoC4/SW2_PM.c **** *
+  74:.\Generated_Source\PSoC4/SW2_PM.c **** * \return 
+  75:.\Generated_Source\PSoC4/SW2_PM.c **** *  None
+  76:.\Generated_Source\PSoC4/SW2_PM.c **** *  
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 12
+
+
+  77:.\Generated_Source\PSoC4/SW2_PM.c **** * \funcusage
+  78:.\Generated_Source\PSoC4/SW2_PM.c **** *  Refer to SW2_Sleep() for an example usage.
+  79:.\Generated_Source\PSoC4/SW2_PM.c **** *******************************************************************************/
+  80:.\Generated_Source\PSoC4/SW2_PM.c **** void SW2_Wakeup(void)
+  81:.\Generated_Source\PSoC4/SW2_PM.c **** {
+ 178              		.loc 1 81 0
+ 179              		.cfi_startproc
+  82:.\Generated_Source\PSoC4/SW2_PM.c ****     #if defined(SW2__PC)
+  83:.\Generated_Source\PSoC4/SW2_PM.c ****         SW2_PC = SW2_backup.pcState;
+ 180              		.loc 1 83 0
+ 181 0000 024B     		ldr	r3, .L5
+  84:.\Generated_Source\PSoC4/SW2_PM.c ****     #else
+  85:.\Generated_Source\PSoC4/SW2_PM.c ****         #if (CY_PSOC4_4200L)
+  86:.\Generated_Source\PSoC4/SW2_PM.c ****             /* Restore the regulator state and come out of suspend mode */
+  87:.\Generated_Source\PSoC4/SW2_PM.c ****             SW2_USB_POWER_REG &= SW2_USBIO_EXIT_SLEEP_PH1;
+  88:.\Generated_Source\PSoC4/SW2_PM.c ****             SW2_CR1_REG = SW2_backup.usbState;
+  89:.\Generated_Source\PSoC4/SW2_PM.c ****             SW2_USB_POWER_REG &= SW2_USBIO_EXIT_SLEEP_PH2;
+  90:.\Generated_Source\PSoC4/SW2_PM.c ****         #endif
+  91:.\Generated_Source\PSoC4/SW2_PM.c ****     #endif
+  92:.\Generated_Source\PSoC4/SW2_PM.c ****     #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(SW2__SIO)
+  93:.\Generated_Source\PSoC4/SW2_PM.c ****         SW2_SIO_REG = SW2_backup.sioState;
+  94:.\Generated_Source\PSoC4/SW2_PM.c ****     #endif
+  95:.\Generated_Source\PSoC4/SW2_PM.c **** }
+ 182              		.loc 1 95 0
+ 183              		@ sp needed
+  83:.\Generated_Source\PSoC4/SW2_PM.c ****     #else
+ 184              		.loc 1 83 0
+ 185 0002 1A68     		ldr	r2, [r3]
+ 186 0004 024B     		ldr	r3, .L5+4
+ 187 0006 1A60     		str	r2, [r3]
+ 188              		.loc 1 95 0
+ 189 0008 7047     		bx	lr
+ 190              	.L6:
+ 191 000a C046     		.align	2
+ 192              	.L5:
+ 193 000c 00000000 		.word	.LANCHOR0
+ 194 0010 08020440 		.word	1074004488
+ 195              		.cfi_endproc
+ 196              	.LFE1:
+ 197              		.size	SW2_Wakeup, .-SW2_Wakeup
+ 198              		.bss
+ 199              		.align	2
+ 200              		.set	.LANCHOR0,. + 0
+ 201              		.type	SW2_backup, %object
+ 202              		.size	SW2_backup, 12
+ 203              	SW2_backup:
+ 204 0000 00000000 		.space	12
+ 204      00000000 
+ 204      00000000 
+ 205              		.text
+ 206              	.Letext0:
+ 207              		.file 2 ".\\Generated_Source\\PSoC4\\cytypes.h"
+ 208              		.file 3 ".\\Generated_Source\\PSoC4\\SW2.h"
+ 209              		.section	.debug_info,"",%progbits
+ 210              	.Ldebug_info0:
+ 211 0000 05010000 		.4byte	0x105
+ 212 0004 0400     		.2byte	0x4
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 13
+
+
+ 213 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 214 000a 04       		.byte	0x4
+ 215 000b 01       		.uleb128 0x1
+ 216 000c 3C000000 		.4byte	.LASF20
+ 217 0010 01       		.byte	0x1
+ 218 0011 DE000000 		.4byte	.LASF21
+ 219 0015 99010000 		.4byte	.LASF22
+ 220 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 221 001d 00000000 		.4byte	0
+ 222 0021 00000000 		.4byte	.Ldebug_line0
+ 223 0025 02       		.uleb128 0x2
+ 224 0026 01       		.byte	0x1
+ 225 0027 06       		.byte	0x6
+ 226 0028 F7010000 		.4byte	.LASF0
+ 227 002c 02       		.uleb128 0x2
+ 228 002d 01       		.byte	0x1
+ 229 002e 08       		.byte	0x8
+ 230 002f D0000000 		.4byte	.LASF1
+ 231 0033 02       		.uleb128 0x2
+ 232 0034 02       		.byte	0x2
+ 233 0035 05       		.byte	0x5
+ 234 0036 73010000 		.4byte	.LASF2
+ 235 003a 02       		.uleb128 0x2
+ 236 003b 02       		.byte	0x2
+ 237 003c 07       		.byte	0x7
+ 238 003d 12010000 		.4byte	.LASF3
+ 239 0041 02       		.uleb128 0x2
+ 240 0042 04       		.byte	0x4
+ 241 0043 05       		.byte	0x5
+ 242 0044 85010000 		.4byte	.LASF4
+ 243 0048 02       		.uleb128 0x2
+ 244 0049 04       		.byte	0x4
+ 245 004a 07       		.byte	0x7
+ 246 004b 00010000 		.4byte	.LASF5
+ 247 004f 02       		.uleb128 0x2
+ 248 0050 08       		.byte	0x8
+ 249 0051 05       		.byte	0x5
+ 250 0052 60010000 		.4byte	.LASF6
+ 251 0056 02       		.uleb128 0x2
+ 252 0057 08       		.byte	0x8
+ 253 0058 07       		.byte	0x7
+ 254 0059 40010000 		.4byte	.LASF7
+ 255 005d 03       		.uleb128 0x3
+ 256 005e 04       		.byte	0x4
+ 257 005f 05       		.byte	0x5
+ 258 0060 696E7400 		.ascii	"int\000"
+ 259 0064 02       		.uleb128 0x2
+ 260 0065 04       		.byte	0x4
+ 261 0066 07       		.byte	0x7
+ 262 0067 33010000 		.4byte	.LASF8
+ 263 006b 04       		.uleb128 0x4
+ 264 006c 2C010000 		.4byte	.LASF12
+ 265 0070 02       		.byte	0x2
+ 266 0071 3A01     		.2byte	0x13a
+ 267 0073 48000000 		.4byte	0x48
+ 268 0077 02       		.uleb128 0x2
+ 269 0078 04       		.byte	0x4
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 14
+
+
+ 270 0079 04       		.byte	0x4
+ 271 007a 36000000 		.4byte	.LASF9
+ 272 007e 02       		.uleb128 0x2
+ 273 007f 08       		.byte	0x8
+ 274 0080 04       		.byte	0x4
+ 275 0081 25010000 		.4byte	.LASF10
+ 276 0085 02       		.uleb128 0x2
+ 277 0086 01       		.byte	0x1
+ 278 0087 08       		.byte	0x8
+ 279 0088 6E010000 		.4byte	.LASF11
+ 280 008c 04       		.uleb128 0x4
+ 281 008d 12000000 		.4byte	.LASF13
+ 282 0091 02       		.byte	0x2
+ 283 0092 E401     		.2byte	0x1e4
+ 284 0094 98000000 		.4byte	0x98
+ 285 0098 05       		.uleb128 0x5
+ 286 0099 6B000000 		.4byte	0x6b
+ 287 009d 06       		.uleb128 0x6
+ 288 009e 0C       		.byte	0xc
+ 289 009f 03       		.byte	0x3
+ 290 00a0 21       		.byte	0x21
+ 291 00a1 CA000000 		.4byte	0xca
+ 292 00a5 07       		.uleb128 0x7
+ 293 00a6 7D010000 		.4byte	.LASF14
+ 294 00aa 03       		.byte	0x3
+ 295 00ab 23       		.byte	0x23
+ 296 00ac 6B000000 		.4byte	0x6b
+ 297 00b0 00       		.byte	0
+ 298 00b1 07       		.uleb128 0x7
+ 299 00b2 57010000 		.4byte	.LASF15
+ 300 00b6 03       		.byte	0x3
+ 301 00b7 24       		.byte	0x24
+ 302 00b8 6B000000 		.4byte	0x6b
+ 303 00bc 04       		.byte	0x4
+ 304 00bd 07       		.uleb128 0x7
+ 305 00be 22000000 		.4byte	.LASF16
+ 306 00c2 03       		.byte	0x3
+ 307 00c3 25       		.byte	0x25
+ 308 00c4 6B000000 		.4byte	0x6b
+ 309 00c8 08       		.byte	0x8
+ 310 00c9 00       		.byte	0
+ 311 00ca 08       		.uleb128 0x8
+ 312 00cb 00000000 		.4byte	.LASF17
+ 313 00cf 03       		.byte	0x3
+ 314 00d0 26       		.byte	0x26
+ 315 00d1 9D000000 		.4byte	0x9d
+ 316 00d5 09       		.uleb128 0x9
+ 317 00d6 18000000 		.4byte	.LASF18
+ 318 00da 01       		.byte	0x1
+ 319 00db 2C       		.byte	0x2c
+ 320 00dc 00000000 		.4byte	.LFB0
+ 321 00e0 14000000 		.4byte	.LFE0-.LFB0
+ 322 00e4 01       		.uleb128 0x1
+ 323 00e5 9C       		.byte	0x9c
+ 324 00e6 09       		.uleb128 0x9
+ 325 00e7 2B000000 		.4byte	.LASF19
+ 326 00eb 01       		.byte	0x1
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 15
+
+
+ 327 00ec 50       		.byte	0x50
+ 328 00ed 00000000 		.4byte	.LFB1
+ 329 00f1 14000000 		.4byte	.LFE1-.LFB1
+ 330 00f5 01       		.uleb128 0x1
+ 331 00f6 9C       		.byte	0x9c
+ 332 00f7 0A       		.uleb128 0xa
+ 333 00f8 8E010000 		.4byte	.LASF23
+ 334 00fc 01       		.byte	0x1
+ 335 00fd 14       		.byte	0x14
+ 336 00fe CA000000 		.4byte	0xca
+ 337 0102 05       		.uleb128 0x5
+ 338 0103 03       		.byte	0x3
+ 339 0104 00000000 		.4byte	SW2_backup
+ 340 0108 00       		.byte	0
+ 341              		.section	.debug_abbrev,"",%progbits
+ 342              	.Ldebug_abbrev0:
+ 343 0000 01       		.uleb128 0x1
+ 344 0001 11       		.uleb128 0x11
+ 345 0002 01       		.byte	0x1
+ 346 0003 25       		.uleb128 0x25
+ 347 0004 0E       		.uleb128 0xe
+ 348 0005 13       		.uleb128 0x13
+ 349 0006 0B       		.uleb128 0xb
+ 350 0007 03       		.uleb128 0x3
+ 351 0008 0E       		.uleb128 0xe
+ 352 0009 1B       		.uleb128 0x1b
+ 353 000a 0E       		.uleb128 0xe
+ 354 000b 55       		.uleb128 0x55
+ 355 000c 17       		.uleb128 0x17
+ 356 000d 11       		.uleb128 0x11
+ 357 000e 01       		.uleb128 0x1
+ 358 000f 10       		.uleb128 0x10
+ 359 0010 17       		.uleb128 0x17
+ 360 0011 00       		.byte	0
+ 361 0012 00       		.byte	0
+ 362 0013 02       		.uleb128 0x2
+ 363 0014 24       		.uleb128 0x24
+ 364 0015 00       		.byte	0
+ 365 0016 0B       		.uleb128 0xb
+ 366 0017 0B       		.uleb128 0xb
+ 367 0018 3E       		.uleb128 0x3e
+ 368 0019 0B       		.uleb128 0xb
+ 369 001a 03       		.uleb128 0x3
+ 370 001b 0E       		.uleb128 0xe
+ 371 001c 00       		.byte	0
+ 372 001d 00       		.byte	0
+ 373 001e 03       		.uleb128 0x3
+ 374 001f 24       		.uleb128 0x24
+ 375 0020 00       		.byte	0
+ 376 0021 0B       		.uleb128 0xb
+ 377 0022 0B       		.uleb128 0xb
+ 378 0023 3E       		.uleb128 0x3e
+ 379 0024 0B       		.uleb128 0xb
+ 380 0025 03       		.uleb128 0x3
+ 381 0026 08       		.uleb128 0x8
+ 382 0027 00       		.byte	0
+ 383 0028 00       		.byte	0
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 16
+
+
+ 384 0029 04       		.uleb128 0x4
+ 385 002a 16       		.uleb128 0x16
+ 386 002b 00       		.byte	0
+ 387 002c 03       		.uleb128 0x3
+ 388 002d 0E       		.uleb128 0xe
+ 389 002e 3A       		.uleb128 0x3a
+ 390 002f 0B       		.uleb128 0xb
+ 391 0030 3B       		.uleb128 0x3b
+ 392 0031 05       		.uleb128 0x5
+ 393 0032 49       		.uleb128 0x49
+ 394 0033 13       		.uleb128 0x13
+ 395 0034 00       		.byte	0
+ 396 0035 00       		.byte	0
+ 397 0036 05       		.uleb128 0x5
+ 398 0037 35       		.uleb128 0x35
+ 399 0038 00       		.byte	0
+ 400 0039 49       		.uleb128 0x49
+ 401 003a 13       		.uleb128 0x13
+ 402 003b 00       		.byte	0
+ 403 003c 00       		.byte	0
+ 404 003d 06       		.uleb128 0x6
+ 405 003e 13       		.uleb128 0x13
+ 406 003f 01       		.byte	0x1
+ 407 0040 0B       		.uleb128 0xb
+ 408 0041 0B       		.uleb128 0xb
+ 409 0042 3A       		.uleb128 0x3a
+ 410 0043 0B       		.uleb128 0xb
+ 411 0044 3B       		.uleb128 0x3b
+ 412 0045 0B       		.uleb128 0xb
+ 413 0046 01       		.uleb128 0x1
+ 414 0047 13       		.uleb128 0x13
+ 415 0048 00       		.byte	0
+ 416 0049 00       		.byte	0
+ 417 004a 07       		.uleb128 0x7
+ 418 004b 0D       		.uleb128 0xd
+ 419 004c 00       		.byte	0
+ 420 004d 03       		.uleb128 0x3
+ 421 004e 0E       		.uleb128 0xe
+ 422 004f 3A       		.uleb128 0x3a
+ 423 0050 0B       		.uleb128 0xb
+ 424 0051 3B       		.uleb128 0x3b
+ 425 0052 0B       		.uleb128 0xb
+ 426 0053 49       		.uleb128 0x49
+ 427 0054 13       		.uleb128 0x13
+ 428 0055 38       		.uleb128 0x38
+ 429 0056 0B       		.uleb128 0xb
+ 430 0057 00       		.byte	0
+ 431 0058 00       		.byte	0
+ 432 0059 08       		.uleb128 0x8
+ 433 005a 16       		.uleb128 0x16
+ 434 005b 00       		.byte	0
+ 435 005c 03       		.uleb128 0x3
+ 436 005d 0E       		.uleb128 0xe
+ 437 005e 3A       		.uleb128 0x3a
+ 438 005f 0B       		.uleb128 0xb
+ 439 0060 3B       		.uleb128 0x3b
+ 440 0061 0B       		.uleb128 0xb
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 17
+
+
+ 441 0062 49       		.uleb128 0x49
+ 442 0063 13       		.uleb128 0x13
+ 443 0064 00       		.byte	0
+ 444 0065 00       		.byte	0
+ 445 0066 09       		.uleb128 0x9
+ 446 0067 2E       		.uleb128 0x2e
+ 447 0068 00       		.byte	0
+ 448 0069 3F       		.uleb128 0x3f
+ 449 006a 19       		.uleb128 0x19
+ 450 006b 03       		.uleb128 0x3
+ 451 006c 0E       		.uleb128 0xe
+ 452 006d 3A       		.uleb128 0x3a
+ 453 006e 0B       		.uleb128 0xb
+ 454 006f 3B       		.uleb128 0x3b
+ 455 0070 0B       		.uleb128 0xb
+ 456 0071 27       		.uleb128 0x27
+ 457 0072 19       		.uleb128 0x19
+ 458 0073 11       		.uleb128 0x11
+ 459 0074 01       		.uleb128 0x1
+ 460 0075 12       		.uleb128 0x12
+ 461 0076 06       		.uleb128 0x6
+ 462 0077 40       		.uleb128 0x40
+ 463 0078 18       		.uleb128 0x18
+ 464 0079 9742     		.uleb128 0x2117
+ 465 007b 19       		.uleb128 0x19
+ 466 007c 00       		.byte	0
+ 467 007d 00       		.byte	0
+ 468 007e 0A       		.uleb128 0xa
+ 469 007f 34       		.uleb128 0x34
+ 470 0080 00       		.byte	0
+ 471 0081 03       		.uleb128 0x3
+ 472 0082 0E       		.uleb128 0xe
+ 473 0083 3A       		.uleb128 0x3a
+ 474 0084 0B       		.uleb128 0xb
+ 475 0085 3B       		.uleb128 0x3b
+ 476 0086 0B       		.uleb128 0xb
+ 477 0087 49       		.uleb128 0x49
+ 478 0088 13       		.uleb128 0x13
+ 479 0089 02       		.uleb128 0x2
+ 480 008a 18       		.uleb128 0x18
+ 481 008b 00       		.byte	0
+ 482 008c 00       		.byte	0
+ 483 008d 00       		.byte	0
+ 484              		.section	.debug_aranges,"",%progbits
+ 485 0000 24000000 		.4byte	0x24
+ 486 0004 0200     		.2byte	0x2
+ 487 0006 00000000 		.4byte	.Ldebug_info0
+ 488 000a 04       		.byte	0x4
+ 489 000b 00       		.byte	0
+ 490 000c 0000     		.2byte	0
+ 491 000e 0000     		.2byte	0
+ 492 0010 00000000 		.4byte	.LFB0
+ 493 0014 14000000 		.4byte	.LFE0-.LFB0
+ 494 0018 00000000 		.4byte	.LFB1
+ 495 001c 14000000 		.4byte	.LFE1-.LFB1
+ 496 0020 00000000 		.4byte	0
+ 497 0024 00000000 		.4byte	0
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 18
+
+
+ 498              		.section	.debug_ranges,"",%progbits
+ 499              	.Ldebug_ranges0:
+ 500 0000 00000000 		.4byte	.LFB0
+ 501 0004 14000000 		.4byte	.LFE0
+ 502 0008 00000000 		.4byte	.LFB1
+ 503 000c 14000000 		.4byte	.LFE1
+ 504 0010 00000000 		.4byte	0
+ 505 0014 00000000 		.4byte	0
+ 506              		.section	.debug_line,"",%progbits
+ 507              	.Ldebug_line0:
+ 508 0000 87000000 		.section	.debug_str,"MS",%progbits,1
+ 508      02004E00 
+ 508      00000201 
+ 508      FB0E0D00 
+ 508      01010101 
+ 509              	.LASF17:
+ 510 0000 5357325F 		.ascii	"SW2_BACKUP_STRUCT\000"
+ 510      4241434B 
+ 510      55505F53 
+ 510      54525543 
+ 510      5400
+ 511              	.LASF13:
+ 512 0012 72656733 		.ascii	"reg32\000"
+ 512      3200
+ 513              	.LASF18:
+ 514 0018 5357325F 		.ascii	"SW2_Sleep\000"
+ 514      536C6565 
+ 514      7000
+ 515              	.LASF16:
+ 516 0022 75736253 		.ascii	"usbState\000"
+ 516      74617465 
+ 516      00
+ 517              	.LASF19:
+ 518 002b 5357325F 		.ascii	"SW2_Wakeup\000"
+ 518      57616B65 
+ 518      757000
+ 519              	.LASF9:
+ 520 0036 666C6F61 		.ascii	"float\000"
+ 520      7400
+ 521              	.LASF20:
+ 522 003c 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 522      4320342E 
+ 522      392E3320 
+ 522      32303135 
+ 522      30333033 
+ 523 006f 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 523      20726576 
+ 523      6973696F 
+ 523      6E203232 
+ 523      31323230 
+ 524 00a2 73202D66 		.ascii	"s -ffunction-sections -flto -ffat-lto-objects\000"
+ 524      66756E63 
+ 524      74696F6E 
+ 524      2D736563 
+ 524      74696F6E 
+ 525              	.LASF1:
+ 526 00d0 756E7369 		.ascii	"unsigned char\000"
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 19
+
+
+ 526      676E6564 
+ 526      20636861 
+ 526      7200
+ 527              	.LASF21:
+ 528 00de 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\SW2_PM.c\000"
+ 528      6E657261 
+ 528      7465645F 
+ 528      536F7572 
+ 528      63655C50 
+ 529              	.LASF5:
+ 530 0100 6C6F6E67 		.ascii	"long unsigned int\000"
+ 530      20756E73 
+ 530      69676E65 
+ 530      6420696E 
+ 530      7400
+ 531              	.LASF3:
+ 532 0112 73686F72 		.ascii	"short unsigned int\000"
+ 532      7420756E 
+ 532      7369676E 
+ 532      65642069 
+ 532      6E7400
+ 533              	.LASF10:
+ 534 0125 646F7562 		.ascii	"double\000"
+ 534      6C6500
+ 535              	.LASF12:
+ 536 012c 75696E74 		.ascii	"uint32\000"
+ 536      333200
+ 537              	.LASF8:
+ 538 0133 756E7369 		.ascii	"unsigned int\000"
+ 538      676E6564 
+ 538      20696E74 
+ 538      00
+ 539              	.LASF7:
+ 540 0140 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 540      206C6F6E 
+ 540      6720756E 
+ 540      7369676E 
+ 540      65642069 
+ 541              	.LASF15:
+ 542 0157 73696F53 		.ascii	"sioState\000"
+ 542      74617465 
+ 542      00
+ 543              	.LASF6:
+ 544 0160 6C6F6E67 		.ascii	"long long int\000"
+ 544      206C6F6E 
+ 544      6720696E 
+ 544      7400
+ 545              	.LASF11:
+ 546 016e 63686172 		.ascii	"char\000"
+ 546      00
+ 547              	.LASF2:
+ 548 0173 73686F72 		.ascii	"short int\000"
+ 548      7420696E 
+ 548      7400
+ 549              	.LASF14:
+ 550 017d 70635374 		.ascii	"pcState\000"
+ 550      61746500 
+ARM GAS  C:\Users\zozo\AppData\Local\Temp\ccDBV1AV.s 			page 20
+
+
+ 551              	.LASF4:
+ 552 0185 6C6F6E67 		.ascii	"long int\000"
+ 552      20696E74 
+ 552      00
+ 553              	.LASF23:
+ 554 018e 5357325F 		.ascii	"SW2_backup\000"
+ 554      6261636B 
+ 554      757000
+ 555              	.LASF22:
+ 556 0199 433A5C55 		.ascii	"C:\\Users\\zozo\\GitHub\\Connection_Parameters1\\Co"
+ 556      73657273 
+ 556      5C7A6F7A 
+ 556      6F5C4769 
+ 556      74487562 
+ 557 01c7 6E6E6563 		.ascii	"nnection_Parameters\\Connection_Parameters.cydsn\000"
+ 557      74696F6E 
+ 557      5F506172 
+ 557      616D6574 
+ 557      6572735C 
+ 558              	.LASF0:
+ 559 01f7 7369676E 		.ascii	"signed char\000"
+ 559      65642063 
+ 559      68617200 
+ 560              		.comm	__gnu_lto_v1,1,1
+ 561              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
