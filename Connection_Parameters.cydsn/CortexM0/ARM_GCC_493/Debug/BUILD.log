@@ -1,11 +1,11 @@
---------------- Build Started: 07/11/2016 17:09:04 Project: Connection_Parameters, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
+--------------- Build Started: 07/11/2016 17:15:09 Project: Connection_Parameters, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
 The code generation step is up to date.
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -Os -flto -ffat-lto-objects -c .\main.c -o .\CortexM0\ARM_GCC_493\Debug\main.o
 .\main.c: In function 'main':
-.\main.c:362:19: warning: unused variable 'Latency' [-Wunused-variable]
+.\main.c:359:19: warning: unused variable 'Latency' [-Wunused-variable]
      static uint16 Latency = 0;
                    ^
-.\main.c:394:11: warning: 'bleState' is used uninitialized in this function [-Wuninitialized]
+.\main.c:391:11: warning: 'bleState' is used uninitialized in this function [-Wuninitialized]
          if(bleState == CYBLE_BLESS_DEEPSLEEP)
            ^
 arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_493\Debug\Connection_Parameters.a .\CortexM0\ARM_GCC_493\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_493\Debug\BLE.o .\CortexM0\ARM_GCC_493\Debug\BLE_gatt.o .\CortexM0\ARM_GCC_493\Debug\BLE_eventHandler.o .\CortexM0\ARM_GCC_493\Debug\BLE_HAL_INT.o .\CortexM0\ARM_GCC_493\Debug\BLE_HAL_PVT.o .\CortexM0\ARM_GCC_493\Debug\BLE_dis.o .\CortexM0\ARM_GCC_493\Debug\BLE_bts.o .\CortexM0\ARM_GCC_493\Debug\SW2.o .\CortexM0\ARM_GCC_493\Debug\SW2_PM.o .\CortexM0\ARM_GCC_493\Debug\SW2_Interrupt.o .\CortexM0\ARM_GCC_493\Debug\Led_Red.o .\CortexM0\ARM_GCC_493\Debug\Led_Red_PM.o .\CortexM0\ARM_GCC_493\Debug\Led_Green.o .\CortexM0\ARM_GCC_493\Debug\Led_Green_PM.o .\CortexM0\ARM_GCC_493\Debug\Led_Blue.o .\CortexM0\ARM_GCC_493\Debug\Led_Blue_PM.o .\CortexM0\ARM_GCC_493\Debug\SW_Tx_UART_AsmGnu.o .\CortexM0\ARM_GCC_493\Debug\SW_Tx_UART.o .\CortexM0\ARM_GCC_493\Debug\BLE_bless_isr.o .\CortexM0\ARM_GCC_493\Debug\CyBootAsmGnu.o .\CortexM0\ARM_GCC_493\Debug\CyFlash.o .\CortexM0\ARM_GCC_493\Debug\CyLib.o .\CortexM0\ARM_GCC_493\Debug\cyPm.o .\CortexM0\ARM_GCC_493\Debug\cyutils.o .\CortexM0\ARM_GCC_493\Debug\CyLFClk.o .\CortexM0\ARM_GCC_493\Debug\TCPWM_1.o .\CortexM0\ARM_GCC_493\Debug\TCPWM_1_PM.o .\CortexM0\ARM_GCC_493\Debug\Clock_1.o .\CortexM0\ARM_GCC_493\Debug\tc_isr_1.o
@@ -14,5 +14,5 @@ arm-none-eabi-gcc.exe -Wl,--start-group -o .\CortexM0\ARM_GCC_493\Debug\Connecti
 cyelftool.exe -C C:\Users\zozo\GitHub\Connection_Parameters1\Connection_Parameters\Connection_Parameters.cydsn\CortexM0\ARM_GCC_493\Debug\Connection_Parameters.elf --flash_row_size 128 --flash_size 131072
 cyelftool.exe -S C:\Users\zozo\GitHub\Connection_Parameters1\Connection_Parameters\Connection_Parameters.cydsn\CortexM0\ARM_GCC_493\Debug\Connection_Parameters.elf
 Flash used: 78720 of 131072 bytes (60.1%).
-SRAM used: 11200 of 16384 bytes (68.4%). Stack: 2048 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 07/11/2016 17:09:07 ---------------
+SRAM used: 11176 of 16384 bytes (68.2%). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 07/11/2016 17:15:11 ---------------

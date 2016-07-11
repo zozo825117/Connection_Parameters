@@ -148,15 +148,6 @@
 <v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.h</v>
 <v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_Stack.h</v>
 <v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_STACK_PVT.h</v>
-<v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_StackGap.h</v>
-<v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_StackGatt.h</v>
-<v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_StackGattClient.h</v>
-<v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_StackGattDb.h</v>
-<v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_StackGattServer.h</v>
-<v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_StackHostMain.h</v>
-<v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE\BLE_StackL2cap.h</v>
-<v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE_bless_isr</v>
-<v>Connection_Parameters\Connection_Parameters\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -219,39 +210,6 @@
 <VisibleNodeIds>
 <v>Connection_Parameters</v>
 <v>Connection_Parameters\Connection_Parameters</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_bless_isr.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_bts.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_dis.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_eventHandler.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_gatt.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_INT.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\BLE_HAL_PVT.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\debug.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\Led_Blue.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\Led_Blue_PM.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\Led_Green.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\Led_Green_PM.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\Led_Red.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\Led_Red_PM.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\SW_Tx_UART.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\SW_Tx_UART_AsmGnu.lst</v>
-<v>Connection_Parameters\Connection_Parameters\CortexM0\ARM_GCC_493\Debug\Listing Files\SW2.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
