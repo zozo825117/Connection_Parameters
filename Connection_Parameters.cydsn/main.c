@@ -58,7 +58,7 @@ CYBLE_GAP_CONN_UPDATE_PARAM_T connectionParameters1 =
 #endif
     200,                /* Minimum connection interval - 400 x 1.25 = 500 ms */
     220,                /* Maximum connection interval - 400 x 1.25 = 500 ms */
-    4,                  /* Slave latency - 1 */
+    1,                  /* Slave latency - 1 */
     500                 /* Supervision timeout - 500 x 10 = 5000 ms */
 };
 
@@ -66,19 +66,19 @@ CYBLE_GAP_CONN_UPDATE_PARAM_T connectionParameters2 =
 {
     20,                /* Minimum connection interval - 400 x 1.25 = 500 ms */
     45,                /* Maximum connection interval - 400 x 1.25 = 500 ms */
-    4,                  /* Slave latency - 1 */
+    2,//4,                  /* Slave latency - 1 */
     500                 /* Supervision timeout - 500 x 10 = 5000 ms */
 };
 CYBLE_GAP_CONN_UPDATE_PARAM_T connectionParameters = 
 {
     250,                /* Minimum connection interval - 400 x 1.25 = 500 ms */
     275,                /* Maximum connection interval - 400 x 1.25 = 500 ms */
-    3,                  /* Slave latency - 1 */
+    0,                  /* Slave latency - 1 */
     500                 /* Supervision timeout - 500 x 10 = 5000 ms */
 };
 
-static CYBLE_GAP_CONN_UPDATE_PARAM_T currentConnParam;
-static CYBLE_GAP_CONN_UPDATE_PARAM_T PrintfConnParam;
+CYBLE_GAP_CONN_UPDATE_PARAM_T currentConnParam;
+CYBLE_GAP_CONN_UPDATE_PARAM_T PrintfConnParam;
 
 /*****************************************************************************
 * Function Definitions
@@ -415,8 +415,8 @@ int main()
       								//Debug_Print(DEBUG_MESSAGE_LEVEL_4,"connLatency = %d  \r\n",connectionParameters.connLatency);
       								//Debug_Print(DEBUG_MESSAGE_LEVEL_4,"supervisionTO = %d  \r\n",connectionParameters.supervisionTO);
                       
-                      api_result = CyBle_L2capLeConnectionParamUpdateRequest(cyBle_connHandle.bdHandle, &connectionParameters);
-                      Debug_Print(DEBUG_MESSAGE_LEVEL_4,"ParamUpdateresult is = %d\r\n",api_result);
+                      //api_result = CyBle_L2capLeConnectionParamUpdateRequest(cyBle_connHandle.bdHandle, &connectionParameters);
+                      //Debug_Print(DEBUG_MESSAGE_LEVEL_4,"ParamUpdateresult is = %d\r\n",api_result);
                       #if 0
                       interval +=6;
                         
@@ -430,10 +430,17 @@ int main()
                       connectionParameters.connIntvMin =interval;
                       connectionParameters.connLatency =Latency;
                       #endif
-                      if(currentConnParam.connIntvMin != PrintfConnParam.connIntvMin || (PrintfConnParam.connLatency))
+                      
+                      if(currentConnParam.connIntvMin < PrintfConnParam.connIntvMin || currentConnParam.connIntvMin > PrintfConnParam.connIntvMax\
+                        || (currentConnParam.connLatency != PrintfConnParam.connLatency))
                       {
-                        Debug_Print(DEBUG_MESSAGE_LEVEL_4,"last time updata failed");
-                      }   
+                        Debug_Print(DEBUG_MESSAGE_LEVEL_4,"last time updata failed\r\n");
+                      }
+                      else
+                      {
+                        Debug_Print(DEBUG_MESSAGE_LEVEL_4,"last time updata ok\r\n");
+                      }
+                      
                       if(interval==0)
                       {
                         Debug_Print(DEBUG_MESSAGE_LEVEL_4,"0 step\r\n");
@@ -461,13 +468,15 @@ int main()
                         api_result = CyBle_L2capLeConnectionParamUpdateRequest(cyBle_connHandle.bdHandle, &connectionParameters2);
                         Debug_Print(DEBUG_MESSAGE_LEVEL_4,"ParamUpdateresult is = %d\r\n",api_result);
 
-                        interval = 0;
-                      }
-                      interval++;
                         
-        			        //Debug_Print(DEBUG_MESSAGE_LEVEL_4,"print connIntv = %d us \r\n",PrintfConnParam.connIntvMin * 1000* 5u /4u);
-      								//Debug_Print(DEBUG_MESSAGE_LEVEL_4,"print connLatency = %d  \r\n",PrintfConnParam.connLatency);
-      								//Debug_Print(DEBUG_MESSAGE_LEVEL_4,"print supervisionTO = %d  \r\n",PrintfConnParam.supervisionTO);
+                      }
+                      
+                      interval++;
+                      if(interval == 3)interval = 0;
+                        
+        			        Debug_Print(DEBUG_MESSAGE_LEVEL_4,"print connIntv = %d us \r\n",PrintfConnParam.connIntvMin * 1000* 5u /4u);
+      								Debug_Print(DEBUG_MESSAGE_LEVEL_4,"print connLatency = %d  \r\n",PrintfConnParam.connLatency);
+      								Debug_Print(DEBUG_MESSAGE_LEVEL_4,"print supervisionTO = %d  \r\n",PrintfConnParam.supervisionTO);
                       
                     
                       LastTimer = SysTickTimer;    
