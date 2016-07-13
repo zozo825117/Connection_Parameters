@@ -1,4 +1,4 @@
---------------- Build Started: 07/11/2016 17:09:04 Project: Connection_Parameters, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
+--------------- Build Started: 07/11/2016 17:24:08 Project: Connection_Parameters, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
 The code generation step is up to date.
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -Os -flto -ffat-lto-objects -c .\main.c -o .\CortexM0\ARM_GCC_493\Debug\main.o
 .\main.c: In function 'main':
@@ -15,4 +15,4 @@ cyelftool.exe -C C:\Users\zozo\GitHub\Connection_Parameters1\Connection_Paramete
 cyelftool.exe -S C:\Users\zozo\GitHub\Connection_Parameters1\Connection_Parameters\Connection_Parameters.cydsn\CortexM0\ARM_GCC_493\Debug\Connection_Parameters.elf
 Flash used: 78720 of 131072 bytes (60.1%).
 SRAM used: 11200 of 16384 bytes (68.4%). Stack: 2048 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 07/11/2016 17:09:07 ---------------
+--------------- Build Succeeded: 07/11/2016 17:24:10 ---------------
