@@ -1,5 +1,0 @@
-C:\Users\zozo\GitHub\Connection_Parameters1\Connection_Parameters\Connection_Parameters.cydsn\Connection_Parameters.cyprj|8c77ac5b-06b5-4807-ab5d-10e11dab410f
-D:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|3ac97425-3269-4f3e-bf6f-bfba1f29670f
-D:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|57767274-4157-4366-a8a8-d3c92deee394
-D:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|be0b576f-d1bb-4571-b018-68bc8a192697
-D:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|53a06a13-b591-43d1-b8b2-7d8209dec6ca
